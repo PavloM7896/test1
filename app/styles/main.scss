@@ -1,0 +1,509 @@
+$icon-font-path: '../fonts/bootstrap/';
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+@media screen and (min-width: 320px) and (max-width: 768px)  {
+  header{
+    .logo {
+      z-index: 1;
+      position: absolute;
+      margin-left: 1%;
+      margin-top: 3%;
+      max-height: 30px;
+    }
+    .header-text {
+      color: white;
+      margin-left: 10px;
+      padding-top: 20px;
+      max-width: 150px;
+      max-height: 100px;
+      h1 {
+        font-size: 0.7em;
+      }
+      p {
+        font-size: 10px;
+        color: black;
+      }
+
+    }
+    img {
+      z-index: -1;
+      position: absolute;
+      max-height: 300px;
+      min-width: 320px;
+      max-width: 768px;
+    }
+    .iPhone {
+      left: 45%;
+      top: 35%;
+
+    }
+  }
+
+  .main-info {
+    h1 {
+      font-size: 35px;
+      font-weight: 100;
+    }
+    p {
+      color: grey;
+    }
+    margin-top: 5%;
+    width: 30%;
+    display: inline-block;
+    margin-left: 15%;
+    float: left;
+    position: relative;
+  }
+  .main-info-continue {
+    margin-top: 15%;
+    width: 30%;
+    display: inline-block;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+
+    p {
+      color: grey;
+    }
+  }
+  .boxes {
+    float: left;
+    margin-left: 15%;
+    color: white;
+    .box {
+      width: 23%;
+      display: inline-block;
+      height: 280px;
+      a{
+        font-weight: bold;
+      }
+      img {
+        z-index: -1;
+        position: absolute;
+      }
+    }
+    .box-big {
+      width: 400px;
+      height: 278px;
+      display: inline-block;
+      margin-right: 300px;
+      a{
+        font-weight: bold;
+      }
+      img {
+        z-index: -1;
+        position: absolute;
+      }
+    }
+  }
+  .text-boxes {
+    width: 100%;
+    float: left;
+    margin-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    h1 {
+      font-size: 40px;
+      font-weight: 100;
+      padding-bottom: 2%;
+    }
+
+    p {
+      font-size: 18px;
+      color: grey;
+    }
+    .text-box {
+      width: 17%;
+      display: inline-block;
+      margin-right: 2%;
+    }
+  }
+  .car {
+    width: 100%;
+    float: left;
+    height: 875px;
+    img {
+      z-index: -1;
+      position: absolute;
+    }
+    .car-text {
+      color: white;
+      a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  }
+  .green-box-back {
+    float: left;
+    width: 100%;
+    height: 535px;
+
+    .green-back {
+      z-index: -1;
+      position: absolute;
+
+    }
+    .green-boxes{
+      margin-left: 15%;
+      .green-box {
+        width: 25%;
+        display: inline-block;
+      }
+    }
+  }
+  .buying {
+    width: 100%;
+    height: 665px;
+    display: inline-block;
+    .img {
+      z-index: -1;
+      position: absolute;
+      float: left;
+      width: 100%;
+    }
+    .buying1 {
+      width: 30%;
+      display: inline-block;
+      .logo {
+        width: 60px;
+        height: 60px;
+        z-index: 1;
+        float: none;
+      }
+      .buying-legacy {
+        width: auto;
+        height: 20px;
+        color: white;
+        .img {
+          z-index: -1;
+          position: absolute;
+          display: inline-block;
+          width: 100px;
+          height: 40px;
+        }
+      }
+    }
+
+    .buying2 {
+      width: 30%;
+      float: right;
+      display: inline-block;
+      background-color: white;
+      z-index: 1;
+      position: absolute;
+      .logo {
+        width: 60px;
+        height: 60px;
+        z-index: 1;
+        float: none;
+      }
+      .buying-legacy {
+        width: auto;
+        height: 20px;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+        .img {
+          z-index: -1;
+          position: absolute;
+          display: inline-block;
+          width: auto;
+          height: 33px;
+
+        }
+      }
+    }
+  }
+
+  footer {
+    color: white;
+    .footer-text {
+      margin-left: 15%;
+      margin-right: 5%;
+      width: 35%;
+      float: left;
+    }
+    .mail {
+      width: 30%;
+      margin-right: 15% ;
+      float: right;
+      display: inline-block;
+    }
+    .footer-links {
+      margin-left: 15%;
+      width: 35%;
+      float: left;
+      display: inline-block;
+      .link {
+        float: left;
+        display: inline-block;
+        margin-right: 11%;
+      }
+    }
+    img {
+      z-index:-1;
+      position: absolute;
+    }
+  }
+}
+
+
+body {
+
+  font-family: "Verdana", sans-serif;
+  h1{
+  font-weight: 100;
+}
+}
+header{
+  min-height: 960px;
+
+  .logo {
+    z-index: 1;
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 3%;
+  }
+  .header-text {
+    color: white;
+    margin-left: 15%;
+    padding-top: 18%;
+    max-width: 30%;
+
+    h1 {
+      font-size: 4.5em;
+      font-weight: 100;
+    }
+    p {
+    font-size: 1em;
+    }
+
+  }
+  img {
+    z-index: -1;
+    position: absolute;
+  }
+  .iPhone {
+    left: 45%;
+    top: 35%;
+
+  }
+}
+
+.main-info {
+  h1 {
+    font-size: 35px;
+    font-weight: 100;
+  }
+  p {
+    color: grey;
+  }
+  margin-top: 5%;
+  width: 30%;
+  display: inline-block;
+  margin-left: 15%;
+  float: left;
+  position: relative;
+}
+  .main-info-continue {
+    margin-top: 15%;
+    width: 30%;
+    display: inline-block;
+    margin-left: 5%;
+    float: left;
+    position: relative;
+
+    p {
+      color: grey;
+    }
+  }
+  .boxes {
+    float: left;
+    margin-left: 15%;
+    color: white;
+    .box {
+      width: 23%;
+      display: inline-block;
+      height: 280px;
+      a{
+        font-weight: bold;
+      }
+      img {
+        z-index: -1;
+        position: absolute;
+      }
+    }
+    .box-big {
+      width: 400px;
+      height: 278px;
+      display: inline-block;
+      margin-right: 300px;
+      a{
+        font-weight: bold;
+      }
+      img {
+        z-index: -1;
+        position: absolute;
+      }
+    }
+  }
+  .text-boxes {
+    width: 100%;
+    float: left;
+    margin-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    h1 {
+    font-size: 40px;
+    font-weight: 100;
+      padding-bottom: 2%;
+    }
+
+    p {
+      font-size: 18px;
+      color: grey;
+    }
+      .text-box {
+      width: 17%;
+      display: inline-block;
+      margin-right: 2%;
+    }
+  }
+  .car {
+    width: 100%;
+    float: left;
+    height: 875px;
+    img {
+      z-index: -1;
+      position: absolute;
+    }
+    .car-text {
+      color: white;
+       a {
+         color: white;
+         text-decoration: none;
+         font-weight: bold;
+       }
+    }
+  }
+  .green-box-back {
+    float: left;
+    width: 100%;
+    height: 535px;
+
+    .green-back {
+      z-index: -1;
+      position: absolute;
+
+    }
+    .green-boxes{
+      margin-left: 15%;
+    .green-box {
+      width: 25%;
+      display: inline-block;
+    }
+    }
+  }
+.buying {
+  width: 100%;
+  height: 665px;
+  display: inline-block;
+  .img {
+    z-index: -1;
+    position: absolute;
+    float: left;
+    width: 100%;
+}
+  .buying1 {
+    width: 30%;
+    display: inline-block;
+    .logo {
+      width: 60px;
+      height: 60px;
+      z-index: 1;
+      float: none;
+    }
+    .buying-legacy {
+      width: auto;
+      height: 20px;
+      color: white;
+      .img {
+        z-index: -1;
+        position: absolute;
+        display: inline-block;
+        width: 100px;
+        height: 40px;
+      }
+    }
+  }
+
+  .buying2 {
+    width: 30%;
+    float: right;
+    display: inline-block;
+    background-color: white;
+    z-index: 1;
+    position: absolute;
+    .logo {
+      width: 60px;
+      height: 60px;
+      z-index: 1;
+      float: none;
+    }
+    .buying-legacy {
+      width: auto;
+      height: 20px;
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      .img {
+        z-index: -1;
+        position: absolute;
+        display: inline-block;
+        width: auto;
+        height: 33px;
+
+      }
+    }
+  }
+}
+
+footer {
+  color: white;
+  .footer-text {
+    margin-left: 15%;
+    margin-right: 5%;
+    width: 35%;
+    float: left;
+  }
+  .mail {
+    width: 30%;
+    margin-right: 15% ;
+    float: right;
+    display: inline-block;
+  }
+  .footer-links {
+    margin-left: 15%;
+    width: 35%;
+    float: left;
+    display: inline-block;
+    .link {
+      float: left;
+      display: inline-block;
+      margin-right: 11%;
+    }
+  }
+  img {
+    z-index:-1;
+    position: absolute;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
